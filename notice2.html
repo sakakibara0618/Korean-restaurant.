@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <title>韓国料理店榊原</title>
+    <meta name="description" content="本場韓国の味を楽しめる韓国料理店です。">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="content-width">
+            <div id="header">
+                <a id="title" href="index.html">韓国料理店榊原</a>
+                <!-- pc用ナビゲーション -->
+                <nav id="nav-pc">
+                    <a href="index.html">TOP</a>
+                    <a href="index.html#menu">メニュー</a>
+                    <a href="index.html#store-guide">店舗案内</a>
+                    <a href="index.html#notice">お知らせ</a>
+                </nav>
+                <!-- スマホ用メニューボタン -->
+                <img id="menu-sp" src="img/menu-button.png" alt="ナビゲーションを開く" onclick="document.getElementById('nav-sp').style.display = 'block'">
+                <nav id="nav-sp">
+                    <img id="close" src="img/button-close.png" alt="ナビゲーションを閉じる" onclick="document.getElementById('nav-sp').style.display = 'none'">
+                    <a id="logo-sp" href="index.html" onclick="document.getElementById('nav-sp').style.display = 'none'" style="font-size: 25px;">韓国料理店榊原</a>
+                    <a class="menu" href="index.html#menu" onclick="document.getElementById('nav-sp').style.display = 'none'">メニュー</a>
+                    <a class="menu" href="index.html#store-guide" onclick="document.getElementById('nav-sp').style.display = 'none'">店舗案内</a>
+                    <a class="menu" href="index.html#notice" onclick="document.getElementById('nav-sp').style.display = 'none'">お知らせ</a>
+                </nav>
+            </div>
+            <p id="header-text">
+                韓国の美食が織りなす<br><span>舌の鼓動を高める料理店</span>
+              </p>
+            <p id="notice-title">お知らせ</p>
+        </div>
+    </header>
+
+    <main>
+        <article>
+            <section>
+                <div class="content-width">
+                    <p class="nav-title">お知らせ</p>
+                    <h1 class="notice-h1">年末年始の営業について</h1>
+                    <p>
+                      以下の通りとなります。<br><br>
+                      12月30日(水) :通常営業<br>
+                      12月31日(木) :営業時間短縮(午後5時まで)<br>
+                      1月1日(金) :休業<br>
+                      1月2日(土) :休業<br>
+                      1月3日(日) :休業<br>
+                      1月4日(月) :通常営業<br><br>
+                      尚、営業時間短縮と休業期間中にいただいたお問い合わせにつきましては、1月4日(月)以降に順次対応させていただきます。
+                    </p>
+                    <a id="btn" href="index.html#notice">戻る</a>
+                </div>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <div class="content-width">
+            <div id="footer-list">
+                <div id="footer-div">
+                    <a href="index.html">韓国料理店榊原</a>
+                    <nav>
+                        <a href="index.html">TOP</a>
+                        <a href="index.html#menu">メニュー</a>
+                        <a href="index.html#store-guide">店舗案内</a>
+                        <a href="index.html#notice">お知らせ</a>
+                    </nav>
+                    <span id="copyright">&copy;2024 韓国料理店榊原 All rights reserved.</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
